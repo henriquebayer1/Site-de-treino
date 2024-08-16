@@ -1,0 +1,292 @@
+/* Imports de fontes */
+@font-face {
+  font-family: LatoRegular;
+  src: url("../assets/font/Lato/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: LatoBold;
+  src: url("../assets/font/Lato/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: LatoBlack;
+  src: url("../assets/font/Lato/Lato-Black.ttf");
+}
+@font-face {
+  font-family: Oswald;
+  src: url("../assets/font/Oswald/Oswald-VariableFont_wght.ttf");
+}
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.SectionAlign {
+width: 95%;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.AlignDivRow {
+display: flex;
+align-items: center;
+
+flex-direction: row;
+justify-content: space-between;
+}
+
+#Header {
+display: flex;
+justify-content: center;
+height: 421px;
+background-color: #1E52B4;
+
+}
+
+Main {
+ padding-top: 70px;
+  display: flex;
+  justify-content: center;
+align-items: center;
+  background-color: white;
+
+}
+
+.mapaBrasil {padding-top: 10px;}
+
+.Nav {
+
+display: flex;
+
+align-items: center;
+padding-top: 15px;
+flex-direction: row;
+justify-content: space-evenly;
+gap: 900px;
+}
+
+.NavLinksBox {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    gap: 30px;
+    width: 350px;
+
+}
+
+
+
+#CadButton {
+ 
+    background-color: #052E81;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    height: 35px;
+    width: 151px;
+    align-items: center;
+    justify-content: center;
+    font-family: "LatoRegular";
+    font-size: 14px;
+}
+
+#TitleNav {
+color: white;
+font-family: "LatoBlack";
+
+
+}
+
+
+.LinkNav {
+
+text-decoration-line: none;
+color: white;
+font-family: "LatoRegular";
+font-size: 14px;
+}
+
+
+#TextHeaderBox {
+
+    color: white;
+    font-family: "LatoRegular";
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+#TitleHeader {
+  font-family: "LatoRegular";
+color: white;
+text-align:justify;
+}
+
+#TextHeader {
+width: 380px;
+text-align: justify;
+font-family: "LatoRegular";
+}
+
+.ActionBox {
+
+height: 80px;
+width: 942px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+gap: 15px;
+background-color: white;
+border-radius: 8px;
+position: relative;
+bottom: 15px;
+left: 255px;
+}
+
+.ActionBoxType {
+display: flex;
+flex-direction: row;
+gap: 12px;
+
+}
+
+.ActionBoxText {
+  font-family: "LatoRegular";
+ font-size: 19px;
+ color: #5F5C6B;
+
+
+}
+
+
+.ActionBoxButton {
+  width: 160px;
+  height: 45px;
+  font-family: "LatoRegular";
+ font-size: 19px;
+ color: white;
+ background-color: #009C3B;
+  border-radius: 8px;
+  border: none;
+
+}
+
+
+.ActionBoxLine {border: 2px dashed #4E4B59;
+  height: 75%;
+}
+
+
+                    
+.LocalImgBox {
+  
+  width: 95%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: row;
+gap: 25px;
+
+}
+
+.LocalImgBoxArticle {
+
+
+}
+
+.LocalImgBoxArticleImg {
+height: 173px;
+width: 260px;
+border-radius: 8px;
+
+}
+
+.LocalImgBoxArticleTitle {
+font-family: "LatoBold";
+font-size: 16px;
+
+}
+
+.LocalImgBoxText {
+  width: 100px;
+  display: flex;
+
+justify-content: flex-start;
+flex-direction: column;
+gap: 5px;
+text-align: justify;
+}
+
+.LocalImgBoxArticleText {
+  font-family: "LatoBold";
+  font-size: 12px;
+ width: 115px;
+
+
+}
+.LocalImgBoxArticleCity {
+  font-family: "Oswald";
+  font-size: 16px;
+ color: #FFDF00;
+ padding-left: 115px;
+ padding-bottom: 40px;
+}
+
+.LocalImgBoxArticleTextAlign {display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 15px;}
+
+  .MainPhraseAlign {
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+
+  }
+
+  .MainTextAlign {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+
+  .dTextGreen {
+color: #019438;
+
+  }
+  .dTextBlue {
+   color: #002777; 
+
+  }
+
+  .MainTextProp {
+    
+    width: 455px;
+height: 25px;
+font-family: "LatoBlack";
+font-size: 28;
+
+  }
+  .MainTextPropLast {
+    
+
+
+font-family: "LatoRegular";
+font-size: 14;
+padding-top: 20px;
+  }
